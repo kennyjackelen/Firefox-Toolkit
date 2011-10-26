@@ -1,0 +1,42 @@
+/* Resize Button */
+#toolkit-resize-button {
+  -moz-box-orient: horizontal;
+}
+
+#toolkit-resize-button .toolbarbutton-text {
+  display: -moz-box;
+  margin: 5;
+  color: -moz-dialogtext;
+  text-shadow: none;
+  vertical-align: center;
+}
+
+#toolkit-resize-button .toolbarbutton-icon {
+  display: none;
+}
+
+#toolkit-resize-button .toolbarbutton-menu-dropmarker {
+  -moz-padding-start: 5px;
+}
+
+/* Bookmarks Toolbar - Icons Only */
+toolbarbutton.bookmark-item {
+  width:24px !important;
+  padding:2px 5px 2px 10px !important;
+}
+
+/* Change Font Size to 11px */
+*
+{
+  font-size:11px !important;
+}
+
+/* Make Empty Browser Tab Black */
+xul:browser
+{
+  background-color: rgb(0, 0, 0);
+}
+
+/* Make the main menu bar (containing File, Edit, etc.) black */
+#main-menubar { background-color: black !important; }
+

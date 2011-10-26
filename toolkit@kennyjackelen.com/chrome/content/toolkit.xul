@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://toolkit/content/toolkit.css" type="text/css"?>
+<?xml-stylesheet href="chrome://toolkit/content/blackfirefox.css" type="text/css"?>
+<overlay id="toolkit" 
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+		 <statusbar id="status-bar">
+ <statusbarpanel id="my-panel" label="Hello, World"  />
+ </statusbar>
+ 
+ <toolbarpalette id="BrowserToolbarPalette">
+  <toolbarbutton id="toolkit-resize-button"/>
+ </toolbarpalette>
+ 
+ <toolbarbutton id="toolkit-resize-button"
+  label="Resize"
+  tooltiptext="Resize the browser window"
+  class="toolbarbutton-1"
+  oncommand="window.resizeTo(1024, 700)"
+  />
+ 
+</overlay>
